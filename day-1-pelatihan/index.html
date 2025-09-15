@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <title>Profile Sederhana</title>
+    <!-- styling CSS -->
+    <style>
+      body {
+        background-color: #54a2f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 20px;
+      }
+
+      .card {
+        background-color: white;
+        padding: 20px;
+        border-radius: 12px;
+        width: 100%;
+        max-width: 350px;
+        text-align: center;
+      }
+
+      .profile-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 15px;
+      }
+
+      h1 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      h2 {
+        font-size: 14px;
+        color: gray;
+        margin-bottom: 15px;
+      }
+
+      p {
+        font-size: 14px;
+        color: #555;
+        margin-bottom: 20px;
+      }
+
+      ol {
+        text-align: left;
+        font-size: 14px;
+        color: #333;
+        margin: 0 auto 20px;
+        padding-left: 20px;
+      }
+
+      .contact-button {
+        background-color: #01c292;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 14px;
+      }
+
+      .contact-button:hover {
+        background-color: rgb(47, 143, 122);
+      }
+    </style>
+  </head>
+  <!-- Struktur body html -->
+  <body>
+    <div class="card">
+      <img class="profile-img" src="profile.webp" alt="foto profile" />
+      <h1>John Doe</h1>
+      <h2>Web Developer</h2>
+      <p>Saya suka membuat website yang menarik dan mudah digunakan.</p>
+      <h3>Keahlian:</h3>
+      <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+      </ol>
+      <button class="contact-button" onclick="tampilkanKontak()">
+        Hubungi Saya
+      </button>
+    </div>
+
+    <!-- Function JAVASCRIPT sederhana untuk menampilkan modal alert -->
+    <script>
+      function tampilkanKontak() {
+        alert("Email: john.doe@gmail.com\nNo.Telp: +62 812-3456-7890");
+      }
+    </script>
+  </body>
+</html>
