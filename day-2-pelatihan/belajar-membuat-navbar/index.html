@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Membuat Navbar</title>
+    <!-- Link Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header>
+      <div class="top-nav-container">
+        <div class="logo">
+          <a href="#">TIKETIN</a>
+        </div>
+        <div class="search-bar">
+          <input type="text" placeholder="Cari tiket konser di sini" />
+          <button type="submit">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+        </div>
+        <nav class="desktop-nav">
+          <ul>
+            <li><a href="#">Pesan Tiket</a></li>
+            <li><a href="#">Riwayat</a></li>
+            <li>
+              <a href="#" class="btn btn-primary">Masuk</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="mobile-menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#">Pesan Tiket</a>
+      <a href="#">Riwayat</a>
+      <a href="#">Masuk</a>
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
