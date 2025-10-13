@@ -10,8 +10,7 @@ Selamat datang di repository pelatihan program COMIT! Repository ini berisi mate
 
 - [Tentang Pelatihan](#tentang-pelatihan)
 - [Prasyarat](#prasyarat)
-- [Struktur Materi](#struktur-materi)
-- [Daftar Pertemuan](#daftar-pertemuan)
+- [Daftar Pertemuan](#daftar-materi)
 - [Teknologi yang Dipelajari](#teknologi-yang-dipelajari)
 
 ## Tentang Pelatihan
