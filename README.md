@@ -38,9 +38,9 @@ Sebelum memulai pelatihan, pastikan Anda memiliki:
 
 ## Daftar Materi
 
-- [day-1-pelatihan](./day-1-pelatihan/README.md)
-- [day-2-pelatihan](./day-2-pelatihan/README.md)
-- [day-3-pelatihan](./day-3-pelatihan/README.md)
+- [1-materi-pelatihan](./1-materi-pelatihan/README.md)
+- [2-materi-pelatihan](./2-materi-pelatihan/README.md)
+- [3-materi-pelatihan](./3-materi-pelatihan/README.md)
 
 ## Teknologi yang Dipelajari
 
