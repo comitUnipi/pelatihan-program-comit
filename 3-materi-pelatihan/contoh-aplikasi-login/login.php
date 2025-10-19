@@ -11,7 +11,7 @@ if (isset($_POST['login'])) {
 
     if ($user) {
         $_SESSION['username'] = $user['username'];
-        header("Location: welcome.php");
+        header("Location: index.php");
     } else {
         echo "Username atau password salah!";
     }
@@ -19,13 +19,28 @@ if (isset($_POST['login'])) {
 
 ?>
 
-<h2>Login</h2>
-<form method="POST" action="">
-    <input type="text" name="username" placeholder="Username" required>
-    <br><br>
-    <input type="password" name="password" placeholder="Password" required>
-    <br><br>
-    <button type="submit" name="login">Login</button>
-</form>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form method="POST" action="">
+            <div>
+                <label>Username</label>
+                <input type="text" name="username" placeholder="Username" required>
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="password" name="password" placeholder="Password" required>
+            </div>
+            <button type="submit" name="login">Login</button>
+        </form>
 
-<p>Belum punya akun? <a href="daftar.php">Daftar di sini</a></p>
+        <p>Belum punya akun? <a href="daftar.php">Daftar di sini</a></p>
+    </div>
+</body>
+</html>
