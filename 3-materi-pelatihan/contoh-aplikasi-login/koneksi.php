@@ -1,7 +1,7 @@
 <?php
-$host = "127.0.0.1";
+$host = "localhost";
 $username = "root";
-$password = "develovers";
+$password = "";
 $dbname = "db_toko";
 
 $koneksi = new mysqli($host, $username, $password, $dbname);
