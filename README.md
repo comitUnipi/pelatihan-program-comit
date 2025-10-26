@@ -40,6 +40,7 @@ Sebelum memulai pelatihan, pastikan Anda memiliki:
 - [1-materi-pelatihan](./1-materi-pelatihan/README.md)
 - [2-materi-pelatihan](./2-materi-pelatihan/README.md)
 - [3-materi-pelatihan](./3-materi-pelatihan/README.md)
+- [4-materi-pelatihan](./4-materi-pelatihan/README.md)
 
 ## Teknologi yang Dipelajari
 
